@@ -1,8 +1,8 @@
 "use strict";
 let fullText = document.querySelector("#typewriter").textContent;
-const typeSoundOne = document.getElementById("typekey1");
-const typeSoundTwo = document.getElementById("typekey2");
-const typeSoundSpace = document.getElementById("typespace");
+const typeSonUn = document.getElementById("typekey1");
+const typeSonDeux = document.getElementById("typekey2");
+const typeSonTrois = document.getElementById("typespace");
 
 let counter = 0;
 document.querySelector("#typewriter").textContent = "";
